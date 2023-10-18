@@ -7,6 +7,7 @@
  * Return: 0 if no numbers in string, converted number otherwise
  *       -1 on error
  */
+
 int errstr_int(char *str)
 {
 	int i = 0;
@@ -31,11 +32,12 @@ int errstr_int(char *str)
 }
 
 /**
- * print_error - prints an error message
+ * error_output - prints an error message
  * @info: the parameter & return info struct
  * @estr: string containing specified error type
  * Return: void
  */
+
 void error_output(info_t *info, char *errstr)
 {
 	error_puts(info->program_name);
@@ -48,7 +50,7 @@ void error_output(info_t *info, char *errstr)
 }
 
 /**
- * print_d - function prints a decimal (integer) number (base 10)
+ * print_decimal - function prints a decimal (integer) number (base 10)
  * @input: the input
  * @fd: the filedescriptor to write to
  *
@@ -88,7 +90,7 @@ int print_decimal(int input, int fileDes)
 }
 
 /**
- * convert_number - converter function, a clone of itoa
+ * int_str - converter function, a clone of itoa
  * @num: number
  * @base: base
  * @flags: argument flags

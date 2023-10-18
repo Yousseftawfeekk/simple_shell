@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _strlen - returns the length of string
+ * str_len - returns the length of string
  * @s: the string length to check
  *
  * Return: length of string
@@ -21,7 +21,7 @@ int str_len(char *s)
 }
 
 /**
- * _strncat - concatenate two strings
+ * strn_con - concatenate two strings
  * @dest: input value
  * @src: input value
  *
@@ -41,7 +41,7 @@ char *str_con(char *dest, char *src)
 }
 
 /**
- * _strcmp - compare string values
+ * str_cmp - compare string values
  * @s1: input value
  * @s2: input value
  *
@@ -64,7 +64,7 @@ int str_cmp(char *s1, char *s2)
 }
 
 /**
- * _strcpy - copies a string
+ * str_cpy - copies a string
  * @dest: the destination
  * @src: the source
  *
@@ -87,7 +87,7 @@ char *str_cpy(char *dest, char *src)
 }
 
 /**
- * starts_with - checks if needle starts with haystack
+ * startsWith - checks if needle starts with haystack
  * @haystack: string to search
  * @needle: the substring to find
  *
