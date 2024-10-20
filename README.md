@@ -14,8 +14,8 @@
 `simple_shell` is a simple UNIX command interpreter written in C that mimics the behavior of the shell (sh). It reads commands from standard input, executes them, and returns the output. This project was developed as part of the ALX Software Engineering program to provide hands-on experience with system calls, processes, memory management, and I/O operations.
 
 ## Authors
-- **Youssef Tawfeek** - [Yousseftawfeekk](https://github.com/Yousseftawfeekk)
 - **Abdelrahman Ahmed** - [abdoAhmed704](https://github.com/abdoAhmed704)
+- **Youssef Tawfeek** - [Yousseftawfeekk](https://github.com/Yousseftawfeekk)
 
 ## Installation
 To install and use the `simple_shell`, follow these steps:
