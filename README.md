@@ -4,16 +4,20 @@ readme_content = """
 
 ## Table of Contents
 - [Description](#description)
+- [Authors](#authors)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
 - [Built-ins](#built-ins)
 - [Examples](#examples)
-- [Authors](#authors)
 - [License](#license)
 
 ## Description
 `simple_shell` is a simple UNIX command interpreter written in C that mimics the behavior of the shell (sh). It reads commands from standard input, executes them, and returns the output. This project was developed as part of the ALX Software Engineering program to provide hands-on experience with system calls, processes, memory management, and I/O operations.
+
+## Authors
+- **Youssef Tawfeek** - [Yousseftawfeekk](https://github.com/Yousseftawfeekk)
+- **Abdelrahman Ahmed** - [abdoAhmed704](https://github.com/abdoAhmed704)
 
 ## Installation
 To install and use the `simple_shell`, follow these steps:
@@ -88,9 +92,6 @@ The following built-ins are implemented in the `simple_shell`:
    HOME=/home/user
    \`\`\`
 
-## Authors
-- **Youssef Tawfeek** - [Yousseftawfeekk](https://github.com/Yousseftawfeekk)
-- **Collaborator** - [Your Name](https://github.com/your-github)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
