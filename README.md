@@ -1,5 +1,3 @@
-# Create the README.md file
-readme_content = """
 # Simple Shell
 
 ## Table of Contents
